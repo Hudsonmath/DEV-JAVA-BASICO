@@ -9,4 +9,24 @@ public class Carro {
 	 * dentro do carro.
 	 */
 
+	
+	
+	public static void main(String[] args) {
+		
+		QuantidadePessoa pessoasNoCarro = new QuantidadePessoa();
+		int passageiros = pessoasNoCarro.entraPessoa(4);
+		
+		System.out.println("quantidade de pessoas atual:" + passageiros);
+		
+		passageiros = pessoasNoCarro.saiPessoa(2);
+		System.out.println("quantidade de pessoas atual:" + passageiros);
+		;
+	
+		
+	}
+	
+	
+	
+	
+		
 }
